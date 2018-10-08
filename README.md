@@ -1,6 +1,6 @@
 # dark_magic
 合理估算线程池大小及队列数
-原文：http://ifeve.com/how-to-calculate-threadpool-size/
+原文：https://www.cnblogs.com/cjsblog/p/9068886.html
 
 
 这个问题虽然看起来很小，却并不那么容易回答。大家如果有更好的方法欢迎赐教，先来一个天真的估算方法：假设要求一个系统的TPS（Transaction Per Second或者Task Per Second）至少为20，然后假设每个Transaction由一个线程完成，继续假设平均每个线程处理一个Transaction的时间为4s。那么问题转化为：
